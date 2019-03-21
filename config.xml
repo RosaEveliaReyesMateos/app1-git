@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<widget xmlns ="http://wwww.w3.org/ns/widgets"
+xmlns:gap ="http://phonegap.com/ns/1.0"
+id ="com.phonegap.app1"
+version = "1.0.0">
+
+<name> app1-2019 Datos del Dispositivo</name>
+
+<description>
+Aplicacion qie nos muestra la informacion referente al dispositivo Movil
+</description>
+
+<author href="https://build.phonegap.com" email="aquiEscribesTuCorreo@gmail.com">
+Rosa Evelia Reyes Mateos
+</author>
+
+<preference name="orientation"    value="default"/>
+<preference name="target-device"  value="universal"/>
+<preference neme="fullscreen"   value="true"/>
+<preference name="android-installLocation"  value="auto"/>
+<preference name="permissions"  value="INTERNET"/>
+
+<plugin name="cordova-plugin-device"spec="~1.1.4"/>
+<plugin name="cordova-plugin-vibration"spec="~2.1.3"/>
+<plugin name="cordova-plugin-dialogs"spec="~1.3.1"/>
+
+<icon src="res/android/mdpi.png"/>
+
+</widget>
